@@ -1014,7 +1014,10 @@
 			return null;
 		}
 
-		var time = new Date(_baseDate.valueOf() + (seconds*1000));
+		var minus = seconds === 0 ? 1000 : 0
+		var time = new Date(_baseDate.valueOf() + (seconds*1000) - minus);
+		
+		
 
 		if (isNaN(time.getTime())) {
 			return null;
