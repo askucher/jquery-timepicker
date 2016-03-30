@@ -1,0 +1,7 @@
+echo "Please change bower.json version to $1"
+jq .version=$1 package.json > package.json
+git add .
+git commit -m "$1"
+git tag $1
+git checkout $1
+git push origin $1
