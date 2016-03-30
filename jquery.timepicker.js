@@ -3,7 +3,6 @@
  * Copyright (c) 2015 Jon Thornton - http://jonthornton.github.com/jquery-timepicker/
  * License: MIT
  */
-alert("test 1.9.2")
 
 (function (factory) {
     if (typeof exports === "object" && exports &&
