@@ -3,7 +3,7 @@
  * Copyright (c) 2015 Jon Thornton - http://jonthornton.github.com/jquery-timepicker/
  * License: MIT
  */
-
+console.log("test")
 
 (function (factory) {
     if (typeof exports === "object" && exports &&
